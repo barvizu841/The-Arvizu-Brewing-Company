@@ -1,0 +1,102 @@
+html {
+    
+    background: #E0E7F0;
+    background-image: url(CrestedButteBackground.jpg);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+body {
+    
+}
+
+header {
+    display: flex;
+}
+
+Name {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 100px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 46px;
+}
+
+li {
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: auto;
+  font-weight: 500;
+  font-style: normal;    
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+description {
+    display: block;
+    margin-top: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+info {
+  display: flex;
+    margin-top: 80px;
+}
+
+hours {
+ display: block;
+ text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 450px;
+}
+
+location {
+  display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: auto;
+  font-weight: 300;
+  font-style: normal;   
+}
