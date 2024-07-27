@@ -1,8 +1,11 @@
-<html>
-<body>
+<?php
 
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+   $name = htmlspecialchars($_POST["name"]);
+   $email = htmlspecialchars($_POST["email"]);
+   $message = htmlspecialchars($_POST["message"]);
 
-</body>
-</html> 
+   echo "Submission:";
+   echo $name;
+   echo $email;
+   echo $message;
+?>
