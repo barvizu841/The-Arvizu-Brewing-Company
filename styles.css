@@ -14,6 +14,12 @@ header {
     display: flex;
 }
 
+Box {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
 Name {
     display: block;
     text-align: center;
@@ -117,6 +123,19 @@ event {
     padding: 5px;
 }
 
+PARTNER {
+        border: 1px solid black;
+    margin: 5px;
+}
+
+partner {
+      text-align: center;
+    display: block;
+    image-orientation: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;  
+}
 
 form {
   display: inline-block;
@@ -187,4 +206,14 @@ th[scope='col'] {
 td {
     text-align: center;
     border: 1px solid black;
+}
+
+article {
+    display: flex;
+}
+
+element {
+   display: block;
+    margin: 5px;
+    padding: 5px;
 }
